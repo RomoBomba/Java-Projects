@@ -37,7 +37,7 @@
 
 ### 4. Веб-приложение для работы с котиками (Spring Boot + Spring Data JPA)
 - Описание: Лабораторная работа по разработке REST API для управления информацией о питомцах и их владельцах с использованием Spring Boot и Spring Data JPA
-- Технологии: Java 23, Spring Boot 3.2.5, Spring MVC, Spring Data JPA, PostgreSQL, H2 Database, SpringDoc OpenAPI 2.3.0 (Swagger UI), MapStruct 1.5.5.Final, Hibernate Validator,JUnit 5, Mockito 5.12.0, Hamcrest 2.2, Byte Buddy 1.15.0
+- Технологии: Java 23, Spring Boot 3.2.5, Spring MVC, Spring Data JPA, PostgreSQL, H2 Database, SpringDoc OpenAPI 2.3.0 (Swagger UI), MapStruct 1.5.5.Final, Hibernate Validator, JUnit 5, Mockito 5.12.0, Hamcrest 2.2, Byte Buddy 1.15.0
 - Что я изучил: Основы Spring Boot и Spring MVC, работу с Spring Data JPA и CrudRepository, создание REST API с правильной архитектурой, разделение сущностей JPA и DTO, документирование API с помощью Swagger, написание тестов для контроллеров без запуска сервера
 
 #### Ключевые особенности:
@@ -50,3 +50,21 @@
 <img src="project4/screenshots/swagger-ui.png" width="600" alt="Swagger UI">
 
 *Swagger UI с документацией всех доступных endpoints*
+
+### 5. Система аутентификации для приложения (Spring Security)
+- Описание: Доработка веб-приложения с реализацией ролевой модели (администратор/пользователь) и защитой endpoints с помощью Spring Security 6.
+- Технологии: Spring Boot, Spring Security 6, Role-based авторизация, SpringDoc OpenAPI (Swagger), MockMVC для тестирования
+- Что я изучил: Настройка SecurityFilterChain, реализация ролевой модели, интеграция аутентификации в Swagger UI, тестирование защищенных endpoints, шифрование паролей
+
+#### Ключевые особенности:
+- Защита всех endpoints
+- Проверка прав владельца
+- Разделение доступа в Swagger UI по ролям
+- Хранение паролей в защищенном виде
+
+## Скриншоты
+<img src="project5/screenshots/auth-swagger1.png" width="600" alt="Аутентификация в Swagger">
+
+<img src="project5/screenshots/auth-swagger2.png" width="600" alt="Аутентификация в Swagger">
+
+*Интеграция аутентификации в Swagger UI*
