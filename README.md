@@ -12,11 +12,11 @@
 - Что я изучил: Работа с графикой, обработка событий, игровой цикл.
 
 ## Скриншоты
-<img src="project1/screenshots/screenshotgame1.png" width="400" alt="Игровой процесс">
+<img src="1.SimpleGame/screenshots/screenshotgame1.png" width="400" alt="Игровой процесс">
 
 *Игровой процесс: управление квадратиком и уклонение от врагов.*
 
-<img src="project1/screenshots/screenshotgame2.png" width="400" alt="Экран завершения">
+<img src="1.SimpleGame/screenshots/screenshotgame2.png" width="400" alt="Экран завершения">
 
 *Экран завершения игры: возможность перезапустить игру.*
 
@@ -26,7 +26,7 @@
 - Что я изучил: Настройка CI/CD, работа с Maven и JavaDoc, разработка банковской системы.
 
 ## Скриншоты
-<img src="project2/screenshots/screenshotbank1.png" width="400" alt="Меню банкомата">
+<img src="2.ATMSystem/screenshots/screenshotbank1.png" width="400" alt="Меню банкомата">
 
 *Меню разработанной программы с опциями.*
 
@@ -47,7 +47,7 @@
 - Покрытие unit-тестами с использованием MockMVC
 
 ## Скриншоты
-<img src="project4/screenshots/swagger-ui.png" width="600" alt="Swagger UI">
+<img src="4.SpringBoot-API/screenshots/swagger-ui.png" width="600" alt="Swagger UI">
 
 *Swagger UI с документацией всех доступных endpoints*
 
@@ -63,8 +63,25 @@
 - Хранение паролей в защищенном виде
 
 ## Скриншоты
-<img src="project5/screenshots/auth-swagger1.png" width="600" alt="Аутентификация в Swagger">
+<img src="5.SpringSecurity/screenshots/auth-swagger1.png" width="600" alt="Аутентификация в Swagger">
 
-<img src="project5/screenshots/auth-swagger2.png" width="600" alt="Аутентификация в Swagger">
+<img src="5.SpringSecurity/screenshots/auth-swagger2.png" width="600" alt="Аутентификация в Swagger">
 
 *Интеграция аутентификации в Swagger UI*
+
+### 6. Микросервисная архитектура (Kafka)
+- Описание: Распределенная система управления питомцами с использованием микросервисов и Kafka.
+- Технологии: Spring Boot, Apache Kafka, JMS, PostgreSQL
+- Что я изучил: Проектирование микросервисной архитектуры, настройка взаимодействия через Kafka, реализация event-driven подхода, создание API Gateway
+
+#### Ключевые особенности:
+- 3 независимых микросервиса (Pets/Owners/Gateway)
+- Сохранение контракта API для обратной совместимости
+- Синхронная и асинхронная обработка запросов
+- Изоляция баз данных
+- Масштабируемая архитектура
+
+## Скриншоты
+<img src="6.Microservices/screenshots/swagger-ui.png" width="600" alt="Архитектура системы">
+
+*Swagger UI с документацией всех доступных endpoints*
